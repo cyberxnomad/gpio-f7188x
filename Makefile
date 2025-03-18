@@ -2,7 +2,7 @@
 
 KERNELVER ?= $(shell uname -r)
 
-obj-m += gpio-f7188x.o
+obj-m += gpio-f819xx.o
 
 build: kernel_modules
 
